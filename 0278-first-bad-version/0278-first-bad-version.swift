@@ -10,8 +10,10 @@ class Solution : VersionControl {
         var lhs = 1
         var rhs = n
         var badVersion = 1
+        
         while lhs <= rhs {
             var mid = (lhs+rhs) / 2
+            
             if isBadVersion(mid) {
                 badVersion = mid
                 rhs = mid - 1
