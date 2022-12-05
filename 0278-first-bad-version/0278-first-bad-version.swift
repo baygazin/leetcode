@@ -6,6 +6,7 @@
 class Solution : VersionControl {
     func firstBadVersion(_ n: Int) -> Int {
         guard n > 1 else { return 1 }
+        
         var lhs = 1
         var rhs = n
         var badVersion = 1
