@@ -20,7 +20,6 @@ class Solution {
                 lhs = mid + 1
             }
         }
-        
         return mid
     }
 }
