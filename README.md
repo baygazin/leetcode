@@ -2,7 +2,7 @@
 <img src="https://github.com/CrutchTheClutch/LeetCode/raw/master/logo.png" width="450" height="auto"/>
 
 [![Solved](https://img.shields.io/badge/Solved-0/2494-337ab7.svg?style=flat)]()
-[![Easy](https://img.shields.io/badge/Easy-4-5cb85c.svg?style=flat)]()
+[![Easy](https://img.shields.io/badge/Easy-5-5cb85c.svg?style=flat)]()
 [![Medium](https://img.shields.io/badge/Medium-0-f0ad4e.svg?style=flat)]()
 [![Hard](https://img.shields.io/badge/Hard-0-d9534f.svg?style=flat)]()
 </br>
@@ -25,5 +25,6 @@ _All solutions are orderd by: Solution # / Language_
 |   ✅    | 0704    | [Binary Search](https://leetcode.com/problems/binary-search) | ![Easy](https://img.shields.io/badge/Easy-5cb85c.svg?style=flat) | [GitHub](0704-binary-search/0704-binary-search.swift) | N/A ms  | N/A MB | ![Swift](https://img.shields.io/badge/Swift--f1e05a.svg?style=flat) |
 |   ✅    | 0278    | [First Bad Version](https://leetcode.com/problems/first-bad-version) | ![Easy](https://img.shields.io/badge/Easy-5cb85c.svg?style=flat) | [GitHub](0278-first-bad-version/0278-first-bad-version.swift) | N/A ms  | N/A MB | ![Swift](https://img.shields.io/badge/Swift--f1e05a.svg?style=flat) |
 |   ✅    | 0035    | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | ![Easy](https://img.shields.io/badge/Easy-5cb85c.svg?style=flat) | [GitHub](0035-search-insert-position/0035-search-insert-position.swift) | N/A ms  | N/A MB | ![Swift](https://img.shields.io/badge/Swift--f1e05a.svg?style=flat) |
+|   ✅    | 0977    | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | ![Easy](https://img.shields.io/badge/Easy-5cb85c.svg?style=flat) | [GitHub](0977-squares-of-a-sorted-array/0977-squares-of-a-sorted-array.swift) | N/A ms  | N/A MB | ![Swift](https://img.shields.io/badge/Swift--f1e05a.svg?style=flat) |
 |   ❌    | 3    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | ![Medium](https://img.shields.io/badge/Medium-f0ad4e.svg?style=flat) | [GitHub]() | N/A ms  | N/A MB | ![Swift](https://img.shields.io/badge/Swift--f1e05a.svg?style=flat) |
 |   ❌    | 4    | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | ![Hard](https://img.shields.io/badge/Hard-d9534f.svg?style=flat) | [GitHub]() | N/A ms  | N/A MB | ![Swift](https://img.shields.io/badge/Swift--f1e05a.svg?style=flat) |
