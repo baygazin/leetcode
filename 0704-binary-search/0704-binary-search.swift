@@ -3,13 +3,13 @@ class Solution {
         var lhs = 0
         var rhs = nums.count - 1
         while lhs <= rhs {
-            var mid = (lhs + rhs) / 2
-            if nums[mid] == target {
-                return mid
-            } else if nums[mid] > target {
-                rhs = mid - 1
+            var midd = (lhs + rhs) / 2
+            if nums[midd] == target {
+                return midd
+            } else if nums[midd] > target {
+                rhs = midd - 1
             } else {
-                lhs = mid + 1
+                lhs = midd + 1
             }
         }
         return -1
