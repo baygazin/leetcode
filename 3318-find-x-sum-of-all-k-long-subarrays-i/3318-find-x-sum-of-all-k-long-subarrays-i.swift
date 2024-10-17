@@ -29,7 +29,7 @@ class Solution {
                     return false
                 }
             }
-            guard sortedDictionary.count > x else {
+            guard sortedDictionary.count >= x else {
                 return nums.reduce(0) { partialResult, element in
                     return partialResult +  element
                 }
