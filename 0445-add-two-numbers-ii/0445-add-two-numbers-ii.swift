@@ -9,7 +9,6 @@
  * }
  */
 class Solution {
-    var reminder = 0
 
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         let l3: ListNode? = ListNode()
