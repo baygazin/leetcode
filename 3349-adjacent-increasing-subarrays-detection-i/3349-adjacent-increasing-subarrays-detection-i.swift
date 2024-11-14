@@ -21,7 +21,7 @@ class Solution {
             
             i += 1
         }
-        print("\(prevCount) \(count)")
+
         return (prevCount >= k && count >= k) || count == 2 * k
     }
 }
