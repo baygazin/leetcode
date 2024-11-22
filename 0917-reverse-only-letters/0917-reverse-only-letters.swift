@@ -26,6 +26,6 @@ class Solution {
 extension Character {
     
     var isEnglishLetter: Bool {
-        description.range(of: "^[a-zA-Z]*$", options: .regularExpression) != nil
+        description.range(of: "[a-zA-Z]", options: .regularExpression) != nil
     }
 }
