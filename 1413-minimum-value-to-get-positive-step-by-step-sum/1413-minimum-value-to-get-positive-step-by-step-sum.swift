@@ -1,6 +1,6 @@
 class Solution {
     func minStartValue(_ nums: [Int]) -> Int {
-        var startValue = 0
+        var startValue = 1
         var sum = 0
         
         for num in nums {
@@ -10,6 +10,6 @@ class Solution {
             }   
         }
         
-        return startValue == 0 ? 1 : startValue
+        return startValue
     }
 }
