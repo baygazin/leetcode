@@ -2,7 +2,6 @@ class Solution {
     func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
         var l = 0
         var r = matrix.count - 1
-        
         while l < r {
             let m = l + (r - l)/2
             
@@ -21,8 +20,6 @@ class Solution {
         
         var l1 = 0
         var r1 = matrix[l].count - 1
-        print(matrix[l])
-        print(r)
         while l1 <= r1 {
             let m = l1 + (r1 - l1)/2
             
