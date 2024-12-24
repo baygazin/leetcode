@@ -8,9 +8,9 @@ class Solution {
             if nums[m] == target {
                 return m
             } else {
-                if isInRange(nums[l], nums[m], target) {
+                if guess(nums[l], nums[m], target) {
                     r = m - 1
-                } else if isInRange(nums[m], nums[r], target) {
+                } else if guess(nums[m], nums[r], target) {
                     l = m + 1
                 } else {
                     break
@@ -21,11 +21,13 @@ class Solution {
         return -1
     }
     
-    private func isInRange(_ l: Int, _ r: Int, _ t: Int) -> Bool {
+    private func guess(_ l: Int, _ r: Int, _ t: Int) -> Bool {
         if l <= r {
             return l <= t && t <= r
         } else {
             return l <= t || t <= r // same as !(l > t && t > r)
         }
+        
+        (l <= r && l <= t && t <= r) || (r > l && (l <= t || t <= r))
     }
 }
