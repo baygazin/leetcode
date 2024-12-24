@@ -25,7 +25,7 @@ class Solution {
         if l <= r {
             return l <= t && t <= r
         } else {
-            return !(l > t && t > r)
+            return l <= t || t <= r // same as !(l > t && t > r)
         }
     }
 }
