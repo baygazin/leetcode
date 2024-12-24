@@ -22,12 +22,12 @@ class Solution {
     }
     
     private func guess(_ l: Int, _ r: Int, _ t: Int) -> Bool {
-        if l <= r {
-            return l <= t && t <= r
-        } else {
-            return l <= t || t <= r // same as !(l > t && t > r)
-        }
+        // if l <= r {
+        //     return l <= t && t <= r
+        // } else {
+        //     return l <= t || t <= r // same as !(l > t && t > r)
+        // }
         
-        (l <= r && l <= t && t <= r) || (r > l && (l <= t || t <= r))
+        (l <= r && l <= t && t <= r) || (l > r && (t >= l || t <= r))
     }
 }
